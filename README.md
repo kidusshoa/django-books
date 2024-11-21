@@ -39,3 +39,13 @@ django-admin startproject base
 cd base
 python3 manage.py startapp books
 ```
+
+# Migration
+
+```bash
+python3 manage.py makemigrations books
+```
+
+```bash
+python3 manage.py migrate
+```
