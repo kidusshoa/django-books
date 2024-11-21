@@ -49,3 +49,11 @@ python3 manage.py makemigrations books
 ```bash
 python3 manage.py migrate
 ```
+
+# Running the app
+
+```bash
+python3 manage.py runserver
+```
+
+Starting development server at http://127.0.0.1:8000/
